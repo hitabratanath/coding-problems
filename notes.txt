@@ -1,0 +1,12 @@
+A GENERAL APPROACH TO SOLVE ANY DYNAMIC PROGRAMMING
+
+https://leetcode.com/problems/subsets/discuss/27281/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning)
+
+https://www.youtube.com/c/andygala888/playlists - andy gala
+
+ELEGANT WAY TO MAKE MAP AND GET VALUE -- * FREQUENCY ARRAY *
+const s = 'aabbbbccdddddeeaabb';
+let repo = {};
+s.split('').forEach((el) => (repo[el] = (repo[el] || 0) + 1));
+let val = Object.values(repo);
+console.log(val);
