@@ -1,5 +1,5 @@
 // the only change is the outermost loop and return reverse array
-function NGR(arr) {
+function NGL(arr) {
   let stk = [],
     result = [];
 
@@ -26,4 +26,4 @@ function NGR(arr) {
   return result;
 }
 const arr = [1, 3, 2, 4];
-console.log(NGR(arr));
+console.log(NGL(arr));
