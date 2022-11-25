@@ -1,4 +1,4 @@
-// the only change is the outermost loop and return reverse array
+// the only change is the outermost loop and reverse array
 function NGL(arr) {
   let stk = [],
     result = [];
